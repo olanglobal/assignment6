@@ -20,7 +20,7 @@ jobs:
 
       - name: Build and push container
         run: |
-          docker build -t my-container .
+          docker build -t my-container
           docker tag my-container iamdonbee/assignment6:prod
           docker push iamdonbee/assignment6:prod
 
